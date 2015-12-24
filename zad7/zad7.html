@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Zadacha7</title>
+		<link rel="stylesheet" type="text/css" href="css/zad7.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<script>
+			function initialize()
+			{
+  				var mapProp = {
+   				center: new google.maps.LatLng(42.7000,23.3333),
+    			zoom:7,
+    			mapTypeId: google.maps.MapTypeId.ROADMAP
+ 				};
+  				var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+			function loadScript()
+			{
+  				var script = document.createElement("script");
+  				script.type = "text/javascript";
+  				script.src = "http://maps.googleapis.com/maps/api/js?key=&sensor=false&callback=initialize";
+  				document.body.appendChild(script);
+			}
+			window.onload = loadScript;
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div class="movies">
+					<p>MOVIES</p>
+				</div>
+				
+				<div class="firstoption" class="forsearch">
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">MOST POPULAR</a></li>
+						<li><a href="#">NEWS</a></li>
+						<li><a href="#">CONTACTS</a></li>
+					</ul>
+					<div class="forsearch">
+						 <input type="text" size="3" />
+					</div>
+					
+					<div class="forsearch1">
+						<button></button>
+					</div>
+					
+				</div>
+				
+			</header>
+			
+			<section>
+				<div class="choice" class="col-xs-6 col-md-4">
+					<ul>
+						<li><a href="#">CINEMA MOVIES</a></li>
+						<li><a href="#">TV SERIES</a></li>
+						<li><a href="#">CARTOONS</a></li>
+						<li><a href="#">ANIME</a></li>
+						<li><a href="#">NEW MOVIES</a></li>
+						<li><a href="#">HD MOVIES</a></li>
+					</ul>
+				</div>
+			</section>	
+			
+			<div class="imag1" class="col-xs-6 col-md-4">
+				<img src="pics/page-1_slide03.jpg">
+			</div>	
+				
+			<div class="textonpic">
+				<p>Ex Machina</p>
+			</div>
+				
+			<div class="text2onpic">
+				<p>&#171;SpongeBob SquarePants takes leave from the town of Bikini<br/> 
+				Bottom in order to track down King Neptune's stolen crown.&#187;</p>
+			</div>
+			
+			<div class="button1">
+				<button type="submit">LEARN MORE</button>
+			</div>
+			
+			<div class="button2">
+				<button type="submit">WATCH TRAILLER</button>
+			</div>
+		
+			<div class="variantstext">
+				<p>Watch you online movies online</p>
+			</div>
+			
+			<div class="variantstext">
+				<div class="variantstext2">
+					<p>Born in Bonn, then the capital of the Electorate of Cologne and part of the Holy Roman Empire, Beethoven displayed his musical talents at an early age and was taught by his father Johann van Beethoven and by composer and conductor Christian Gottlob Neefe. </p>
+				</div>
+			</div>
+			
+			<div class="variantstext2">
+				<ul>
+					<li>CINEMA MOVIES</li>
+					<li>TV SERIES</li>
+					<li>CARTOONS</li>
+					<li>ANIME</li>
+					<li>NEW MOVIES</li>
+					<li>HD MOVIES</li>
+				</ul>
+				
+				<ul>
+					<li>CINEMA MOVIES</li>
+					<li>TV SERIES</li>
+					<li>CARTOONS</li>
+					<li>ANIME</li>
+					<li>NEW MOVIES</li>
+					<li>HD MOVIES</li>
+				</ul>
+				
+				<ul>
+					<li>CINEMA MOVIES</li>
+					<li>TV SERIES</li>
+					<li>CARTOONS</li>
+					<li>ANIME</li>
+					<li>NEW MOVIES</li>
+					<li>HD MOVIES</li>
+				</ul>
+				
+				<ul>
+					<li>CINEMA MOVIES</li>
+					<li>TV SERIES</li>
+					<li>CARTOONS</li>
+					<li>ANIME</li>
+				</ul>
+				
+				<div class="button3">
+					<button type="submit">SEARCH</button>
+				</div>
+			</div>
+			
+
+			
+			<div class="genre">
+				<p>More Movies</p>
+			</div>
+			
+			<div class="genre" class="col-xs-12 col-sm-6 col-md-8">
+				<div class="images">
+					<ul>
+						<li><label>Soclis natoque</label><img src="pics/page-1_img01.jpg"></li>
+						<li><label>Soclis natoque</label><img src="pics/page-1_img02.jpg"></li>
+						<li><label>Soclis natoque</label><img src="pics/page-1_img03.jpg"></li>
+						<li><label>Soclis natoque</label><img src="pics/page-1_img04.jpg"></li>
+					</ul>	
+					
+					<ul>
+						<li><label>Natque penuss</label><img src="pics/page-1_img05.jpg"></li>
+						<li><label>Natque penuss</label><img src="pics/page-1_img06.jpg"></li>
+						<li><label>Natque penuss</label><img src="pics/page-1_img07.jpg"></li>
+						<li><label>Natque penuss</label><img src="pics/page-1_img08.jpg"></li>
+					</ul>
+					
+					<ul>
+						<li><label>Soclis natoque</label><img src="pics/page-1_img09.jpg"></li>
+						<li><label>Soclis natoque</label><img src="pics/page-1_img10.jpg"></li>
+						<li><label>Soclis natoque</label><img src="pics/page-1_img06.jpg"></li>
+						<li><label>Soclis natoque</label><img src="pics/page-1_img05.jpg"></li>
+					</ul>
+					
+					<ul>
+						<li><label>Natque penuss</label><img src="pics/page-1_img01.jpg"></li>
+						<li><label>Natque penuss</label><img src="pics/page-1_img02.jpg"></li>
+						<li><label>Natque penuss</label><img src="pics/page-1_img03.jpg"></li>
+						<li><label>Natque penuss</label><img src="pics/page-1_img04.jpg"></li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="genre">
+				<div class="viewmorebutton">
+					<button type="submit">VIEW MORE</button>
+				</div>
+			</div>
+			
+			<div class="picslider">
+				<div class="textslide">
+					<p>Testimonials</p>
+				</div>
+			</div>
+			
+			<div class="picslider">
+				<div class="img-circle">
+					<img src="pics/page-1_img20.jpg">
+				</div>
+				
+				<div class="btnslideprev">
+					<input type="button"></input>
+				</div>
+				
+				<div class="btnslidenext">
+					<input type="button"></input>
+				</div>
+			</div>
+			
+	
+			
+			<div class="picslider">
+				<div class="textslide2">
+					<p>James B.</p>
+				</div>
+				<div class="textslide3">
+					<p>Movie fan</p>
+				</div>
+				<div class="textslide4">
+					<p><br/>In March 1787 Beethoven traveled to Vienna (possibly at another's expense)
+						 <br/>for the first time, apparently in the hope of studying with Mozart. </p>
+				</div>
+			</div>
+			
+			<div class="mailandnotes" class="col-xs-12 col-sm-6 col-md-8">
+				<div class="mailtext">
+					<p>Mail us</p>
+				</div>
+			</div>	
+			
+			<div class="mailandnotes">
+				
+				<div class="name">
+					<label>Your Name</label>
+				</div>
+				<div class="name">
+					<input type="text" size="40">
+				</div>
+				
+				<div class="mail">
+					<label>Your Email</label>
+				</div>
+				<div class="mail">
+					<input type="text" size="40">
+				</div>
+				
+				<div class="notes">
+					<label>Your Notes</label>
+				</div>
+				<div class="notes">
+					<input type="text" size="91">
+				</div>
+				
+				<div class="btnsend">
+					<button type="submit">WATCH TRAILLER</button>
+				</div>
+  			</div>	
+  			
+  			<div id="googleMap" style="width:100%;height:380px;"></div>
+  			
+  			<footer class="footer">
+  				<div class="footerp1">
+  					<p> Movies &#169; 2015 &#183; Privacy Policy</p>
+  				</div>
+  				
+  				<div class="footerp2">
+  					<p>Questions? Call Us Toll Free: (012) 123-456-7890</p>
+  				</div>
+  				
+  				<div class="footerbtn">
+					<button type="submit">Contact us</button>
+  				</div>
+  			</footer>
+			
+		</div>
+	
+	</body>
+</html>

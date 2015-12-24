@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+#container {
+	width: 1170px;
+	margin: 1em auto;	
+}
+
+#container > header {
+	min-height: 30px;
+	background-color: darkblue;
+}
+
+#container > footer {
+	min-height: 30px;
+	background-color: blue;
+}
+
+#container > section {
+	min-height: 300px;
+	margin: 1em auto;
+}
+
+.left aside {
+	min-height: 300px;
+	background-color: darkviolet;
+	width: 300px;	
+	float: left;
+	margin-right: 5px;
+}
+
+.right aside {
+	min-height: 300px;
+	background-color: green;
+	width: 850px;	
+	float: right;
+}
